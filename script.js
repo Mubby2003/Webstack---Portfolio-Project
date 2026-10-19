@@ -20,3 +20,19 @@ if (menuButton && siteNav) {
 
 document.querySelector("#year").textContent = String(new Date().getFullYear());
 
+const certificateDialog = document.querySelector("#certificate-dialog");
+const certificatePreview = document.querySelector("[data-certificate-view]");
+const certificateFullImage = document.querySelector("#certificate-full-image");
+const certificateClose = document.querySelector("[data-certificate-close]");
+
+if (certificateDialog && certificatePreview && certificateFullImage) {
+  certificatePreview.addEventListener("click", () => {
+    certificateFullImage.src = certificatePreview.querySelector("img").src;
+    certificateDialog.showModal();
+  });
+
+  certificateClose?.addEventListener("click", () => certificateDialog.close());
+  certificateDialog.addEventListener("click", (event) => {
+    if (event.target === certificateDialog) certificateDialog.close();
+  });
+}
