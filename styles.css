@@ -209,3 +209,5 @@ img{transition:transform .34s ease,filter .34s ease;transform-origin:center cent
 .project-body .project-callout{min-height:0;margin:0 0 10px;padding:10px 11px;border-left:2px solid var(--accent);background:#f5f3ee;color:#5f625b;font-size:10px;line-height:1.7}
 .project-body .project-note{min-height:0;margin:0 0 15px;color:var(--muted);font-size:9px;font-style:italic}
 @media(max-width:680px){.experience-note{margin-top:15px}.experience-note ul{font-size:11px}.proposal-art{height:136px}.proposal-art strong{font-size:26px}}
+.linkedin-link{display:inline-flex;align-items:center;gap:8px}
+.linkedin-icon{width:15px;height:15px;display:block;flex:none;fill:currentColor}
