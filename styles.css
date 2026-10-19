@@ -211,3 +211,5 @@ img{transition:transform .34s ease,filter .34s ease;transform-origin:center cent
 @media(max-width:680px){.experience-note{margin-top:15px}.experience-note ul{font-size:11px}.proposal-art{height:136px}.proposal-art strong{font-size:26px}}
 .linkedin-link{display:inline-flex;align-items:center;gap:8px}
 .linkedin-icon{width:15px;height:15px;display:block;flex:none;fill:currentColor}
+.whatsapp-link{display:inline-flex;align-items:center;gap:8px}
+.whatsapp-icon{width:16px;height:16px;display:block;flex:none;fill:#4bd28b}
