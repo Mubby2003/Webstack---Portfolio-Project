@@ -151,7 +151,7 @@
               <p class="credential-copy">Undergraduate study in communication, media and public relations.</p>
             </article>
             <article class="credential-card credential-alx">
-              <div class="credential-art" role="img" aria-label="ALX Software Engineering Programme, Front-End specialization, completed 2024"><span class="credential-logo">alx</span><span class="credential-program">SOFTWARE<br>ENGINEERING</span><strong>FRONT-END<br>SPECIALIZATION</strong><i>COMPLETED · 2024</i></div>
+              <button class="certificate-preview" type="button" data-certificate-view aria-haspopup="dialog" aria-controls="certificate-dialog" aria-label="View the full ALX Front-End certificate"><img class="credential-image" src="assets/alx-front-end-certificate.png" alt="ALX Software Engineering certificate for the Front-End specialization." loading="lazy"><span class="certificate-open-label">View certificate <span aria-hidden="true">↗</span></span></button>
               <div class="credential-info">
                 <p class="project-type">CERTIFICATE · COMPLETED 2024</p>
                 <h3>ALX Software Engineering Programme</h3>
@@ -162,6 +162,14 @@
           </div>
         </div>
       </section>
+
+      <dialog class="certificate-dialog" id="certificate-dialog" aria-labelledby="certificate-dialog-title">
+        <div class="certificate-dialog-heading">
+          <h2 id="certificate-dialog-title">ALX Front-End certificate</h2>
+          <button class="certificate-close" type="button" data-certificate-close aria-label="Close certificate view">Close <span aria-hidden="true">×</span></button>
+        </div>
+        <img class="certificate-full-image" id="certificate-full-image" alt="Full ALX Software Engineering certificate for the Front-End specialization.">
+      </dialog>
 
       <section class="contact-section" id="contact" aria-labelledby="contact-title">
         <div class="section-shell contact-inner">
