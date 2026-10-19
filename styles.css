@@ -1,4 +1,3 @@
-Warning: fs was declared with const; use let for reassignable variables.
 @charset "UTF-8";
 :root{color-scheme:light;--paper:#f7f5ef;--paper-deep:#efede5;--ink:#22231f;--muted:#71736b;--line:#deddd4;--accent:#a77946;--accent-light:#d7bb91;--forest:#263d36;--white:#fffefa;--serif:Georgia,"Times New Roman",serif;--sans:Inter,"Segoe UI",Arial,sans-serif;--shell:1160px}
 *{box-sizing:border-box}
@@ -165,3 +164,5 @@ h2{max-width:600px;margin-bottom:0;font-size:clamp(39px,4.1vw,57px)}
 .contact-secondary{padding:11px 13px;border:1px solid rgba(255,255,255,.28);color:#f2f0e8;font-size:9px;font-weight:750;letter-spacing:.08em;text-transform:uppercase;transition:background .2s,color .2s}
 .contact-secondary:hover{background:var(--paper);color:var(--ink)}
 @media(max-width:680px){.credentials-section .section-block{padding-top:72px;padding-bottom:78px}.credentials-grid{grid-template-columns:1fr;gap:13px}.credential-study{padding:23px 21px}.credential-alx{grid-template-columns:1fr;gap:10px;padding:13px}.credential-art{min-height:150px}.credential-info{padding:9px 7px 8px}.credential-info h3{font-size:21px}}
+
+.visual-code{background:#14283d}.code-window{width:72%;min-height:112px;padding:13px 15px;display:flex;flex-direction:column;justify-content:center;gap:8px;border:1px solid rgba(255,255,255,.24);background:#0d1a29;box-shadow:8px 8px 0 rgba(34,35,31,.13);color:#d6e4ea}.code-window span{margin-bottom:3px;color:#55d6ae;font-size:7px;font-weight:800;letter-spacing:.12em}.code-window b{color:#8eb6e6;font-family:monospace;font-size:10px;font-weight:500}.code-window i{padding-left:13px;color:#e2c386;font-family:monospace;font-size:8px;font-style:normal}
