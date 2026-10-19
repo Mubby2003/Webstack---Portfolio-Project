@@ -214,6 +214,11 @@ h2{max-width:600px;margin-bottom:0;font-size:clamp(39px,4.1vw,57px)}
 @media(max-width:900px){.cv-grid{gap:35px}.cv-card{padding:18px;grid-template-columns:55px 1fr;gap:14px}.cv-file-mark{width:53px;height:68px}}
 @media(max-width:680px){.cv-section .section-block{padding-top:72px;padding-bottom:78px}.cv-grid{grid-template-columns:1fr;gap:23px}.cv-card{padding:17px;grid-template-columns:48px 1fr;gap:13px}.cv-file-mark{width:46px;height:60px;font-size:16px}.cv-details h3{font-size:21px}.cv-actions .button{min-height:41px}}
 
+img{transition:transform .34s ease,filter .34s ease;transform-origin:center center}
+@media(hover:hover){img:hover{transform:scale(1.035);filter:saturate(1.07) contrast(1.015)}}
+.certificate-preview{overflow:hidden}.certificate-preview:focus-visible .credential-image{transform:scale(1.035);filter:saturate(1.07)}
+@media(prefers-reduced-motion:reduce){img:hover,.certificate-preview:focus-visible .credential-image{transform:none!important;filter:none!important}}
+
     </style>
   </head>
   <body>
