@@ -98,7 +98,7 @@ h2{max-width:600px;margin-bottom:0;font-size:clamp(39px,4.1vw,57px)}
 .community-core{z-index:1;display:grid;width:97px;height:97px;place-content:center;border-radius:50%;background:var(--forest);color:var(--white);font-size:8px;font-weight:750;letter-spacing:.12em;line-height:1.6;text-align:center}
 .community-spark{position:absolute;color:var(--accent);font-size:23px}.spark-one{top:28px;right:39px}.spark-two{bottom:29px;left:39px;font-size:15px}
 .visual-community .visual-label{color:#6d695f}
-.visual-web{background:#ebe7dc}
+.visual-web{background:#ebe7dc}.kwasu-visual{background:#fff}.kwasu-logo-image{position:absolute;inset:0;width:100%;height:100%;padding:8px;object-fit:contain}
 .browser-frame{position:relative;width:70%;height:112px;padding:18px 13px 12px;border:1px solid #bdb7a7;background:#f8f6f0;box-shadow:9px 9px 0 rgba(35,47,40,.12)}
 .browser-dots{position:absolute;top:7px;left:9px;display:flex;gap:3px}.browser-dots i{width:4px;height:4px;border-radius:50%;background:#b1ab9b}
 .browser-lines{width:42%;display:flex;flex-direction:column;gap:5px}.browser-lines b{height:3px;background:#a77946;opacity:.64}.browser-lines b:nth-child(2){width:76%;background:#9e9b8f}.browser-lines b:nth-child(3){width:54%;background:#9e9b8f}
@@ -152,7 +152,7 @@ h2{max-width:600px;margin-bottom:0;font-size:clamp(39px,4.1vw,57px)}
 .credentials-section .section-block{padding-top:85px;padding-bottom:93px}
 .credentials-grid{margin-top:32px;display:grid;grid-template-columns:.8fr 1.2fr;gap:18px}
 .credential-card{min-width:0;background:var(--white);border:1px solid rgba(34,35,31,.06)}
-.credential-study{padding:27px 29px;display:flex;flex-direction:column;justify-content:center}
+.credential-study{padding:27px 29px;display:flex;flex-direction:column;justify-content:center}.education-logo{width:74px;height:74px;margin-bottom:12px;object-fit:contain;background:#fff}
 .credential-study h2{margin:3px 0 14px;font-size:clamp(29px,3.2vw,42px)}
 .credential-alx{display:grid;grid-template-columns:minmax(190px,.8fr) 1.2fr;align-items:center;gap:24px;padding:18px}
 .credential-art{min-height:170px;padding:18px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(135deg,#062b52,#0c4474 60%,#00a99d);color:#f5fbff}.credential-logo{font-size:29px;font-weight:850;letter-spacing:-.09em;line-height:1}.credential-program{margin-top:3px;font-size:7px;font-weight:800;letter-spacing:.13em;line-height:1.35}.credential-art strong{margin-top:auto;font-size:12px;letter-spacing:.07em;line-height:1.35}.credential-art i{margin-top:12px;font-size:7px;font-style:normal;font-weight:750;letter-spacing:.12em;color:#35ddb1}
@@ -213,3 +213,4 @@ img{transition:transform .34s ease,filter .34s ease;transform-origin:center cent
 .linkedin-icon{width:15px;height:15px;display:block;flex:none;fill:currentColor}
 .whatsapp-link{display:inline-flex;align-items:center;gap:8px}
 .whatsapp-icon{width:16px;height:16px;display:block;flex:none;fill:#4bd28b}
+
